@@ -188,7 +188,17 @@
                 </div>
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">Pengembang Media Pembelajaran.</p></div>
+                    <div class="col-lg-4 ms-auto"><p class="lead">Prestasi Pengembang:</p></div>
+                    <div>
+                            <li>Medali Emas Indonesian Educational International Innovative Competition IFPRI 2021</li>
+                            <LI>Medali Perak Lomba Inovasi Materi Digital LIDM Puspresnas 2020</LI>
+                            <li>Juara 1 Lomba LKTIN LOYALISM IT Telkon Surabaya 2021</li>
+                            <li>Juara 2 Lomba Media Pembelajaran Fisika Festifal Pendidikan Fisika UAD 2021</li>
+                            <li>Juara 1 Lomba Esai Inovasi Pendidikan Festival Pendidika 4.0 UNJ 2020</li>
+                            <li>Juara 1 Lomba Inovasi Pembelajaran CARTESION UNY 2020</li>
+                            <li>Juara 1 Lomba Media Pembelajaran Digital UNSRI 2020</li>
+                            <li>Awardee Beasiswa Unggulan Kemendikbud 2018</li>
+                        </div>
                     <div class="col-lg-4 me-auto"><p class="lead">Memiliki keahlian dasar seperti CSS, HTML, JavaScript, Unity 3D, C#, Filmora, Desain dan materi fisika</p></div>
                 </div>
                 <!-- About Section Button-->
@@ -221,23 +231,23 @@
                         <!-- To make this form functional, sign up at-->
                         <!-- https://startbootstrap.com/solution/contact-forms-->
                         <!-- to get an API token!-->
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN" name="submit-to-google-sheet">
+                        <form id="contactForm" data-sb-form-api-token="API_TOKEN" name='submit-to-google-sheet'>
                             <!-- Name input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" / name="nama">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" / name='nama'>
                                 <label for="name">Nama Lengkap</label>
                                 <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                             </div>
                             <!-- Email address input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" name="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <input class="form-control" id="email" type="email" name='email' placeholder="name@example.com" data-sb-validations="required,email" />
                                 <label for="email">E-mail</label>
                                 <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                                 <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                             </div>
                             <!-- Phone number input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                <input class="form-control" id="phone" name='kontak' type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
                                 <label for="phone">No. Handphone </label>
                                 <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                             </div>
@@ -702,7 +712,7 @@
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 
         <script>
-         const scriptURL = 'https://script.google.com/macros/s/AKfycbw932gqbunoTR5tvjjldmHg7QAkhQIvQIA8_555Al2gRzjvK0N_3iSzRVsgVxBVjJFm/exec';
+         const scriptURL = 'https://script.google.com/macros/s/AKfycbzcql2pJIWuRX5gMLOGIn5RCcy-0Yd0I1aH6h4J81zgQZ3O4Bc2Way30DX0A6DcDVbs/exec'
          const form = document.forms['submit-to-google-sheet']
 
         form.addEventListener('submit', e => {
