@@ -5,7 +5,7 @@
 */
 //
 // Scripts
-// 
+//
 
 window.addEventListener('DOMContentLoaded', event => {
 
@@ -22,8 +22,13 @@ window.addEventListener('DOMContentLoaded', event => {
         }
 
     };
+    //courosel
+    const myCarousel = document.querySelector('#myCarousel')
+    const carousel = new mdb.Carousel(myCarousel)
+    carousel.pause()
+    import { Carousel } from 'mdb-ui-kit';
 
-    // Shrink the navbar 
+    // Shrink the navbar
     navbarShrink();
 
     // Shrink the navbar when page is scrolled
@@ -50,5 +55,6 @@ window.addEventListener('DOMContentLoaded', event => {
             }
         });
     });
+
 
 });
