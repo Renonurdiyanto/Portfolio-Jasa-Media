@@ -30,6 +30,8 @@ window.addEventListener('DOMContentLoaded', event => {
 
     // Shrink the navbar
     navbarShrink();
+    //Courosel
+        new WOW().init();
 
     // Shrink the navbar when page is scrolled
     document.addEventListener('scroll', navbarShrink);
